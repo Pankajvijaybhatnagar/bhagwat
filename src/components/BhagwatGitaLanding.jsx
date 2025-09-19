@@ -7,7 +7,7 @@ const BhagwatGitaLanding = () => {
   const [formData, setFormData] = useState({
     admissionYear: '2025-26',
     course: 'Diploma in Srimad Bhagwat Gita (Duration: One Year)',
-    programFee: '6600',
+    programFee: '8500',
     studentName: '',
     fatherName: '',
     motherName: '',
@@ -48,10 +48,10 @@ const BhagwatGitaLanding = () => {
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-amber-200 rounded-full flex items-center justify-center">
-                  <span className="text-amber-800 font-bold text-xl">॥</span>
+               <img  className='rounde rounded-full' src='/logo.png'/>
                 </div>
                 <div>
-                  <h1 className="text-2xl font-bold">Spiritual Education Institute</h1>
+                  <h1 className="text-2xl font-bold">Srimad Bhagwat Gita</h1>
                   <p className="text-amber-100 text-sm">Ancient Wisdom for Modern Life</p>
                 </div>
               </div>
@@ -64,6 +64,76 @@ const BhagwatGitaLanding = () => {
             </div>
           </div>
         </header>
+
+        {/* Maharaj Ji Banner Section */}
+        <section className="relative py-16 bg-gradient-to-r from-amber-800 via-orange-800 to-amber-900 overflow-hidden">
+          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="absolute top-0 left-0 w-full h-full">
+            <div className="absolute top-10 left-10 w-20 h-20 bg-amber-300/20 rounded-full animate-pulse"></div>
+            <div className="absolute top-32 right-20 w-16 h-16 bg-orange-300/20 rounded-full animate-pulse delay-700"></div>
+            <div className="absolute bottom-20 left-1/4 w-12 h-12 bg-amber-400/20 rounded-full animate-pulse delay-1000"></div>
+          </div>
+          
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="max-w-6xl mx-auto">
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                {/* Text Content */}
+                <div className="text-white order-2 md:order-1">
+                  <div className="inline-block bg-amber-200/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
+                    <span className="text-amber-100 font-semibold">🙏 Spiritual Guidance</span>
+                  </div>
+                  <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                    Under the Divine Guidance of<br />
+                    <span className="text-amber-200">Maharaj Ji</span>
+                  </h2>
+                  <p className="text-xl text-amber-100 mb-8 leading-relaxed">
+                    Experience the profound teachings of Srimad Bhagwat Gita through the enlightened guidance of our revered spiritual master, who has dedicated his life to sharing the eternal wisdom of Lord Krishna.
+                  </p>
+                  <div className="grid grid-cols-2 gap-6">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+                      <div className="text-2xl font-bold text-amber-200 mb-1">25+</div>
+                      <div className="text-amber-100 text-sm">Years of Teaching</div>
+                    </div>
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+                      <div className="text-2xl font-bold text-amber-200 mb-1">5000+</div>
+                      <div className="text-amber-100 text-sm">Students Guided</div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Maharaj Ji Photo */}
+                <div className="order-1 md:order-2 flex justify-center">
+                  <div className="relative">
+                    <div className="absolute -inset-4 bg-gradient-to-r from-amber-400 to-orange-400 rounded-full blur-lg opacity-30 animate-pulse"></div>
+                    <div className="relative bg-gradient-to-br from-amber-200 to-orange-200 p-2 rounded-full shadow-2xl">
+                      <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center border-4 border-white/50">
+                        {/* Placeholder for Maharaj Ji's photo */}
+                        {/* <div className="text-center text-amber-800">
+                          <div className="text-6xl mb-4">🕉️</div>
+                          <p className="text-lg font-semibold">Maharaj Ji's Photo</p>
+                          <p className="text-sm opacity-75">(Replace with actual image)</p>
+                        </div> */}
+            
+                <Image
+                    src="/498203014_1240298517441165_2705311863320165095_n.jpg"
+                    alt="Maharaj Ji"
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover"
+                    priority
+                />
+               
+                      </div>
+                    </div>
+                    {/* Decorative elements */}
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-amber-300 rounded-full animate-bounce"></div>
+                    <div className="absolute -bottom-2 -left-2 w-6 h-6 bg-orange-300 rounded-full animate-bounce delay-500"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Hero Section */}
         <section className="py-20 px-4">
@@ -92,7 +162,7 @@ const BhagwatGitaLanding = () => {
                   <div className="text-amber-600">Duration</div>
                 </div>
                 <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                  <div className="text-3xl font-bold text-amber-800 mb-2">₹6,600</div>
+                  <div className="text-3xl font-bold text-amber-800 mb-2">₹8,500</div>
                   <div className="text-amber-600">Total Program Fee</div>
                 </div>
                 <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg">
@@ -359,24 +429,8 @@ const BhagwatGitaLanding = () => {
                     />
                   </div>
 
-                  {/* Caste Category */}
-                  <div>
-                    <label className="block text-amber-800 font-semibold mb-2">Select Caste Category *</label>
-                    <select
-                      name="caste"
-                      value={formData.caste}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-amber-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"
-                      required
-                    >
-                      <option value="">Select Caste Category</option>
-                      <option value="General">General</option>
-                      <option value="SC">SC</option>
-                      <option value="ST">ST</option>
-                      <option value="OBC">OBC</option>
-                      <option value="EWS">EWS</option>
-                    </select>
-                  </div>
+          
+                
 
                   {/* Contact Information */}
                   <div className="grid md:grid-cols-2 gap-6">
