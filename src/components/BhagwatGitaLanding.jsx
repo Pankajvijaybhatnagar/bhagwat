@@ -7,7 +7,7 @@ const BhagwatGitaLanding = () => {
   const [formData, setFormData] = useState({
     admissionYear: '2025-26',
     course: 'Diploma in Srimad Bhagwat Gita (Duration: One Year)',
-    programFee: '8500',
+    programFee: '6600',
     studentName: '',
     fatherName: '',
     motherName: '',
@@ -92,7 +92,7 @@ const BhagwatGitaLanding = () => {
                   <div className="text-amber-600">Duration</div>
                 </div>
                 <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                  <div className="text-3xl font-bold text-amber-800 mb-2">₹8,500</div>
+                  <div className="text-3xl font-bold text-amber-800 mb-2">₹6,600</div>
                   <div className="text-amber-600">Total Program Fee</div>
                 </div>
                 <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-lg">
@@ -525,8 +525,8 @@ const BhagwatGitaLanding = () => {
                 <div>
                   <h4 className="font-semibold text-white mb-4">Contact Info</h4>
                   <ul className="space-y-2">
-                    <li>📞 +91-XXXXX-XXXXX</li>
-                    <li>✉️ info@spiritualeducation.org</li>
+                    <li>📞 +91-9992888303</li>
+                    <li>✉️ diploma@gieogitaeducourses.org</li>
                     <li>📍 Spiritual Campus, India</li>
                     <li>🕒 Mon-Sat: 9AM-6PM</li>
                   </ul>
