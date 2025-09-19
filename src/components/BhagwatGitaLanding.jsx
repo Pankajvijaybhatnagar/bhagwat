@@ -473,12 +473,12 @@ const BhagwatGitaLanding = () => {
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                   <div className="text-3xl mb-4">📞</div>
                   <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-                  <p className="text-amber-100">+91-XXXXX-XXXXX</p>
+                  <p className="text-amber-100"> +91-9992888303</p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                   <div className="text-3xl mb-4">✉️</div>
                   <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-                  <p className="text-amber-100">info@spiritualeducation.org</p>
+                  <p className="text-amber-100">diploma@gieogitaeducourses.org</p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                   <div className="text-3xl mb-4">📍</div>
