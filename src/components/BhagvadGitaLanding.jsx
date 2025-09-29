@@ -100,15 +100,15 @@ const MainContent = () => {
               <span className="text-orange-800">Bhagvad Gita</span>
             </h1>
             <p className="text-xl md:text-2xl text-amber-700 mb-8 leading-relaxed">
-              Discover the timeless wisdom of the Bhagwat Gita and transform your life through ancient spiritual knowledge and practical philosophy
+              Discover the timeless wisdom of the Bhagvad Gita and transform your life through ancient spiritual knowledge and practical philosophy
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <a href="#admission" className="bg-gradient-to-r from-amber-600 to-orange-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-amber-700 hover:to-orange-800 transition-all transform hover:scale-105 shadow-lg">
                 Enroll Now
               </a>
-              <a href="#curriculum" className="bg-white text-amber-800 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-amber-50 transition-all border-2 border-amber-600 shadow-lg">
+              {/* <a href="#curriculum" className="bg-white text-amber-800 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-amber-50 transition-all border-2 border-amber-600 shadow-lg">
                 View Curriculum
-              </a>
+              </a> */}
             </div>
             
             {/* Key Stats */}
@@ -186,7 +186,7 @@ const MainContent = () => {
                     <p className="text-amber-700 text-lg leading-relaxed">
                       "You have the right to perform your actions, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty."
                     </p>
-                    <p className="text-amber-600 mt-4 font-semibold">- Bhagwat Gita 2.47</p>
+                    <p className="text-amber-600 mt-4 font-semibold">- Bhagvad Gita 2.47</p>
                   </div>
                 </div>
               </div>
@@ -330,7 +330,7 @@ const MainContent = () => {
 
 
 // Main App Component
-const BhagwatGitaLanding = () => {
+const BhagvadGitaLanding = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100">
       <Header />
@@ -340,4 +340,4 @@ const BhagwatGitaLanding = () => {
   );
 };
 
-export default BhagwatGitaLanding;
+export default BhagvadGitaLanding;

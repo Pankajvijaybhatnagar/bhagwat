@@ -1,10 +1,10 @@
-import BhagwatGitaLanding from '@/components/BhagwatGitaLanding'
+import BhagvadGitaLanding from '@/components/BhagvadGitaLanding'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-        <BhagwatGitaLanding/>
+        <BhagvadGitaLanding/>
     </div>
   )
 }
