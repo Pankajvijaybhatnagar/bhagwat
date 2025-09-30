@@ -262,7 +262,7 @@ const [formData, setFormData] = useState({});
                     Photo
                   </h4>
                   <img
-                    src={selectedAdmission.photo_path}
+                    src={selectedAdmission.photo_url}
                     alt="Student Photo"
                     className="w-40 h-40 object-cover rounded-lg border"
                   />
@@ -272,7 +272,7 @@ const [formData, setFormData] = useState({});
                     Signature
                   </h4>
                   <img
-                    src={selectedAdmission.signature_path}
+                    src={selectedAdmission.signature_url}
                     alt="Signature"
                     className="w-40 h-20 object-contain border rounded-lg bg-gray-50"
                   />
